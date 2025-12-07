@@ -7,7 +7,9 @@ name = "aidoc_project"
 version = "0.1.0"
 description = ""
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=1.26",
+]
 
 [project.optional-dependencies]
 dev = [
